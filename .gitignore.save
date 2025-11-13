@@ -1,0 +1,23 @@
+# Ignore large media files
+*.mp4
+*.avi
+*.mov
+
+# Ignore Python virtual environments
+pro/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Ignore large Torch library files
+*.dylib
+*.so
+
+# Ignore temporary folders
+.DS_Store
+*.log
+
+git rm --cached Ai/highlights_1735404008_videoplayback_9TEMP_MPY_wvf_snd.mp4
+
+
